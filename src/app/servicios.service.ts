@@ -8,8 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ServiciosService {
 
-  private apiUrl = 'http://localhost:3000/api';  // Cambia aquí
-
+  private apiUrl = 'http://localhost:3000/api';  
   constructor(private http: HttpClient) { }
 
   // Método para obtener todos los usuarios
